@@ -1,0 +1,1053 @@
+﻿[
+    {
+        "id":  "V00",
+        "type":  "villa",
+        "label":  "VILLA-A-05",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        5
+                    ],
+        "worldX":  -740,
+        "worldY":  -12880,
+        "mapX":  0.5718,
+        "mapY":  0.1897
+    },
+    {
+        "id":  "V01",
+        "type":  "villa",
+        "label":  "VILLA-A-06",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        6
+                    ],
+        "worldX":  1060,
+        "worldY":  -12890,
+        "mapX":  0.5979,
+        "mapY":  0.1895
+    },
+    {
+        "id":  "V02",
+        "type":  "villa",
+        "label":  "VILLA-A-04",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        4
+                    ],
+        "worldX":  -2590,
+        "worldY":  -12770,
+        "mapX":  0.5449,
+        "mapY":  0.1925
+    },
+    {
+        "id":  "V03",
+        "type":  "villa",
+        "label":  "VILLA-A-07",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        7
+                    ],
+        "worldX":  2930,
+        "worldY":  -12740,
+        "mapX":  0.625,
+        "mapY":  0.1932
+    },
+    {
+        "id":  "V04",
+        "type":  "villa",
+        "label":  "VILLA-A-03",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        3
+                    ],
+        "worldX":  -4460,
+        "worldY":  -12480,
+        "mapX":  0.5177,
+        "mapY":  0.1997
+    },
+    {
+        "id":  "V05",
+        "type":  "villa",
+        "label":  "VILLA-A-08",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        8
+                    ],
+        "worldX":  4830,
+        "worldY":  -12400,
+        "mapX":  0.6526,
+        "mapY":  0.2017
+    },
+    {
+        "id":  "V06",
+        "type":  "villa",
+        "label":  "VILLA-A-02",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        2
+                    ],
+        "worldX":  -6190,
+        "worldY":  -12000,
+        "mapX":  0.4926,
+        "mapY":  0.2117
+    },
+    {
+        "id":  "V07",
+        "type":  "villa",
+        "label":  "VILLA-A-09",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        9
+                    ],
+        "worldX":  6540,
+        "worldY":  -11920,
+        "mapX":  0.6775,
+        "mapY":  0.2138
+    },
+    {
+        "id":  "V08",
+        "type":  "villa",
+        "label":  "VILLA-A-01",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        1
+                    ],
+        "worldX":  -7900,
+        "worldY":  -11340,
+        "mapX":  0.4678,
+        "mapY":  0.2283
+    },
+    {
+        "id":  "V09",
+        "type":  "villa",
+        "label":  "VILLA-A-10",
+        "zone":  "Villas A",
+        "unitIds":  [
+                        10
+                    ],
+        "worldX":  8210,
+        "worldY":  -11270,
+        "mapX":  0.7017,
+        "mapY":  0.23
+    },
+    {
+        "id":  "V10",
+        "type":  "villa",
+        "label":  "VILLA-B-03",
+        "zone":  "Villas B",
+        "unitIds":  [
+                        13
+                    ],
+        "worldX":  14391,
+        "worldY":  -11015,
+        "mapX":  0.7915,
+        "mapY":  0.2364
+    },
+    {
+        "id":  "V11",
+        "type":  "villa",
+        "label":  "VILLA-B-01",
+        "zone":  "Villas B",
+        "unitIds":  [
+                        11
+                    ],
+        "worldX":  10570,
+        "worldY":  -10910,
+        "mapX":  0.736,
+        "mapY":  0.239
+    },
+    {
+        "id":  "V12",
+        "type":  "villa",
+        "label":  "VILLA-B-02",
+        "zone":  "Villas B",
+        "unitIds":  [
+                        12
+                    ],
+        "worldX":  12380,
+        "worldY":  -10950,
+        "mapX":  0.7623,
+        "mapY":  0.238
+    },
+    {
+        "id":  "V13",
+        "type":  "villa",
+        "label":  "VILLA-B-04",
+        "zone":  "Villas B",
+        "unitIds":  [
+                        14
+                    ],
+        "worldX":  16206,
+        "worldY":  -10824,
+        "mapX":  0.8178,
+        "mapY":  0.2412
+    },
+    {
+        "id":  "V14",
+        "type":  "villa",
+        "label":  "VILLA-C-01",
+        "zone":  "Villas C",
+        "unitIds":  [
+                        15
+                    ],
+        "worldX":  -16144,
+        "worldY":  -10816,
+        "mapX":  0.3481,
+        "mapY":  0.2414
+    },
+    {
+        "id":  "V15",
+        "type":  "villa",
+        "label":  "VILLA-C-02",
+        "zone":  "Villas C",
+        "unitIds":  [
+                        16
+                    ],
+        "worldX":  -14120,
+        "worldY":  -10937,
+        "mapX":  0.3775,
+        "mapY":  0.2384
+    },
+    {
+        "id":  "V16",
+        "type":  "villa",
+        "label":  "VILLA-C-03",
+        "zone":  "Villas C",
+        "unitIds":  [
+                        17
+                    ],
+        "worldX":  -12200,
+        "worldY":  -10940,
+        "mapX":  0.4053,
+        "mapY":  0.2383
+    },
+    {
+        "id":  "V17",
+        "type":  "villa",
+        "label":  "VILLA-C-04",
+        "zone":  "Villas C",
+        "unitIds":  [
+                        18
+                    ],
+        "worldX":  -10280,
+        "worldY":  -10920,
+        "mapX":  0.4332,
+        "mapY":  0.2388
+    },
+    {
+        "id":  "V18",
+        "type":  "villa",
+        "label":  "VILLA-D-01",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        19
+                    ],
+        "worldX":  17754,
+        "worldY":  -9569,
+        "mapX":  0.8403,
+        "mapY":  0.2726
+    },
+    {
+        "id":  "V19",
+        "type":  "villa",
+        "label":  "VILLA-D-02",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        20
+                    ],
+        "worldX":  18730,
+        "worldY":  -7430,
+        "mapX":  0.8545,
+        "mapY":  0.3261
+    },
+    {
+        "id":  "V20",
+        "type":  "villa",
+        "label":  "VILLA-E-01",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        28
+                    ],
+        "worldX":  -17746,
+        "worldY":  -9531,
+        "mapX":  0.3263,
+        "mapY":  0.2735
+    },
+    {
+        "id":  "V21",
+        "type":  "villa",
+        "label":  "VILLA-E-02",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        29
+                    ],
+        "worldX":  -18720,
+        "worldY":  -7510,
+        "mapX":  0.3136,
+        "mapY":  0.3241
+    },
+    {
+        "id":  "V22",
+        "type":  "villa",
+        "label":  "VILLA-E-03",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        30
+                    ],
+        "worldX":  -18710,
+        "worldY":  -5290,
+        "mapX":  0.3138,
+        "mapY":  0.3797
+    },
+    {
+        "id":  "V23",
+        "type":  "villa",
+        "label":  "VILLA-D-03",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        21
+                    ],
+        "worldX":  18790,
+        "worldY":  -5250,
+        "mapX":  0.8553,
+        "mapY":  0.3807
+    },
+    {
+        "id":  "V24",
+        "type":  "villa",
+        "label":  "VILLA-D-04",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        22
+                    ],
+        "worldX":  18750,
+        "worldY":  -3150,
+        "mapX":  0.8548,
+        "mapY":  0.4333
+    },
+    {
+        "id":  "V25",
+        "type":  "villa",
+        "label":  "VILLA-E-04",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        31
+                    ],
+        "worldX":  -18710,
+        "worldY":  -3070,
+        "mapX":  0.3138,
+        "mapY":  0.4353
+    },
+    {
+        "id":  "V26",
+        "type":  "villa",
+        "label":  "VILLA-D-05",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        23
+                    ],
+        "worldX":  18750,
+        "worldY":  760,
+        "mapX":  0.8548,
+        "mapY":  0.5311
+    },
+    {
+        "id":  "V27",
+        "type":  "villa",
+        "label":  "VILLA-E-05",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        32
+                    ],
+        "worldX":  -18740,
+        "worldY":  820,
+        "mapX":  0.3134,
+        "mapY":  0.5326
+    },
+    {
+        "id":  "V28",
+        "type":  "villa",
+        "label":  "VILLA-E-06",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        33
+                    ],
+        "worldX":  -18730,
+        "worldY":  3010,
+        "mapX":  0.3135,
+        "mapY":  0.5874
+    },
+    {
+        "id":  "V29",
+        "type":  "villa",
+        "label":  "VILLA-D-06",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        24
+                    ],
+        "worldX":  18760,
+        "worldY":  2950,
+        "mapX":  0.8549,
+        "mapY":  0.5859
+    },
+    {
+        "id":  "V30",
+        "type":  "villa",
+        "label":  "VILLA-D-07",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        25
+                    ],
+        "worldX":  18750,
+        "worldY":  5150,
+        "mapX":  0.8548,
+        "mapY":  0.641
+    },
+    {
+        "id":  "V31",
+        "type":  "villa",
+        "label":  "VILLA-E-07",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        34
+                    ],
+        "worldX":  -18740,
+        "worldY":  5250,
+        "mapX":  0.3134,
+        "mapY":  0.6435
+    },
+    {
+        "id":  "V32",
+        "type":  "villa",
+        "label":  "VILLA-D-08",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        26
+                    ],
+        "worldX":  18760,
+        "worldY":  7350,
+        "mapX":  0.8549,
+        "mapY":  0.6961
+    },
+    {
+        "id":  "V33",
+        "type":  "villa",
+        "label":  "VILLA-E-08",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        35
+                    ],
+        "worldX":  -18670,
+        "worldY":  7390,
+        "mapX":  0.3143,
+        "mapY":  0.6971
+    },
+    {
+        "id":  "V34",
+        "type":  "villa",
+        "label":  "VILLA-E-09",
+        "zone":  "Villas E",
+        "unitIds":  [
+                        36
+                    ],
+        "worldX":  -17814,
+        "worldY":  9569,
+        "mapX":  0.3255,
+        "mapY":  0.7516
+    },
+    {
+        "id":  "V35",
+        "type":  "villa",
+        "label":  "VILLA-D-09",
+        "zone":  "Villas D",
+        "unitIds":  [
+                        27
+                    ],
+        "worldX":  17826,
+        "worldY":  9601,
+        "mapX":  0.8414,
+        "mapY":  0.7524
+    },
+    {
+        "id":  "V36",
+        "type":  "villa",
+        "label":  "VILLA-G-02",
+        "zone":  "Villas G",
+        "unitIds":  [
+                        41
+                    ],
+        "worldX":  12340,
+        "worldY":  10890,
+        "mapX":  0.7617,
+        "mapY":  0.7847
+    },
+    {
+        "id":  "V37",
+        "type":  "villa",
+        "label":  "VILLA-F-01",
+        "zone":  "Villas F",
+        "unitIds":  [
+                        37
+                    ],
+        "worldX":  -16106,
+        "worldY":  10844,
+        "mapX":  0.3486,
+        "mapY":  0.7835
+    },
+    {
+        "id":  "V38",
+        "type":  "villa",
+        "label":  "VILLA-F-03",
+        "zone":  "Villas F",
+        "unitIds":  [
+                        39
+                    ],
+        "worldX":  -12160,
+        "worldY":  10930,
+        "mapX":  0.4059,
+        "mapY":  0.7857
+    },
+    {
+        "id":  "V39",
+        "type":  "villa",
+        "label":  "VILLA-G-03",
+        "zone":  "Villas G",
+        "unitIds":  [
+                        42
+                    ],
+        "worldX":  14180,
+        "worldY":  10876,
+        "mapX":  0.7884,
+        "mapY":  0.7843
+    },
+    {
+        "id":  "V40",
+        "type":  "villa",
+        "label":  "VILLA-G-04",
+        "zone":  "Villas G",
+        "unitIds":  [
+                        43
+                    ],
+        "worldX":  16135,
+        "worldY":  10836,
+        "mapX":  0.8168,
+        "mapY":  0.7833
+    },
+    {
+        "id":  "V41",
+        "type":  "villa",
+        "label":  "VILLA-G-01",
+        "zone":  "Villas G",
+        "unitIds":  [
+                        40
+                    ],
+        "worldX":  10480,
+        "worldY":  10930,
+        "mapX":  0.7347,
+        "mapY":  0.7857
+    },
+    {
+        "id":  "V42",
+        "type":  "villa",
+        "label":  "VILLA-F-02",
+        "zone":  "Villas F",
+        "unitIds":  [
+                        38
+                    ],
+        "worldX":  -14040,
+        "worldY":  10953,
+        "mapX":  0.3786,
+        "mapY":  0.7863
+    },
+    {
+        "id":  "L00",
+        "type":  "loft",
+        "label":  "LOFT-B3",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        80,
+                        81,
+                        82,
+                        83
+                    ],
+        "worldX":  -30380,
+        "worldY":  -14645,
+        "mapX":  0.1614,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L01",
+        "type":  "loft",
+        "label":  "LOFT-B4",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        84,
+                        85,
+                        86,
+                        87
+                    ],
+        "worldX":  -27070,
+        "worldY":  -14665,
+        "mapX":  0.2046,
+        "mapY":  0.145
+    },
+    {
+        "id":  "L02",
+        "type":  "loft",
+        "label":  "LOFT-B5",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        88,
+                        89,
+                        90,
+                        91
+                    ],
+        "worldX":  -23780,
+        "worldY":  -14645,
+        "mapX":  0.2476,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L03",
+        "type":  "loft",
+        "label":  "LOFT-B6",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        92,
+                        93,
+                        94,
+                        95
+                    ],
+        "worldX":  -20340,
+        "worldY":  -14645,
+        "mapX":  0.2925,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L04",
+        "type":  "loft",
+        "label":  "LOFT-B7",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+        "worldX":  -16860,
+        "worldY":  -14575,
+        "mapX":  0.3379,
+        "mapY":  0.1473
+    },
+    {
+        "id":  "L05",
+        "type":  "loft",
+        "label":  "LOFT-B8",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        100,
+                        101,
+                        102,
+                        103
+                    ],
+        "worldX":  -13250,
+        "worldY":  -14645,
+        "mapX":  0.3901,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L06",
+        "type":  "loft",
+        "label":  "LOFT-B9",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        104,
+                        105,
+                        106,
+                        107
+                    ],
+        "worldX":  -10180,
+        "worldY":  -14645,
+        "mapX":  0.4347,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L07",
+        "type":  "loft",
+        "label":  "LOFT-C1",
+        "zone":  "Lofts C",
+        "unitIds":  [
+                        108,
+                        109,
+                        110,
+                        111
+                    ],
+        "worldX":  12100,
+        "worldY":  -14275,
+        "mapX":  0.7582,
+        "mapY":  0.1548
+    },
+    {
+        "id":  "L08",
+        "type":  "loft",
+        "label":  "LOFT-C2",
+        "zone":  "Lofts C",
+        "unitIds":  [
+                        112,
+                        113,
+                        114,
+                        115
+                    ],
+        "worldX":  15000,
+        "worldY":  -14275,
+        "mapX":  0.8003,
+        "mapY":  0.1548
+    },
+    {
+        "id":  "L09",
+        "type":  "loft",
+        "label":  "LOFT-C3",
+        "zone":  "Lofts C",
+        "unitIds":  [
+                        116,
+                        117,
+                        118,
+                        119
+                    ],
+        "worldX":  18520,
+        "worldY":  -14225,
+        "mapX":  0.8514,
+        "mapY":  0.1561
+    },
+    {
+        "id":  "L10",
+        "type":  "loft",
+        "label":  "LOFT-C4",
+        "zone":  "Lofts C",
+        "unitIds":  [
+                        120,
+                        121,
+                        122,
+                        123
+                    ],
+        "worldX":  21900,
+        "worldY":  -14205,
+        "mapX":  0.9005,
+        "mapY":  0.1566
+    },
+    {
+        "id":  "L11",
+        "type":  "loft",
+        "label":  "LOFT-C5",
+        "zone":  "Lofts C",
+        "unitIds":  [
+                        124,
+                        125,
+                        126,
+                        127
+                    ],
+        "worldX":  25310,
+        "worldY":  -14185,
+        "mapX":  0.95,
+        "mapY":  0.1571
+    },
+    {
+        "id":  "L12",
+        "type":  "loft",
+        "label":  "LOFT-A1",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        44,
+                        45,
+                        46,
+                        47
+                    ],
+        "worldX":  -23020,
+        "worldY":  -11255,
+        "mapX":  0.2575,
+        "mapY":  0.2304
+    },
+    {
+        "id":  "L13",
+        "type":  "loft",
+        "label":  "LOFT-D1",
+        "zone":  "Lofts D",
+        "unitIds":  [
+                        128,
+                        129,
+                        130,
+                        131
+                    ],
+        "worldX":  25310,
+        "worldY":  -11375,
+        "mapX":  0.95,
+        "mapY":  0.2274
+    },
+    {
+        "id":  "L14",
+        "type":  "loft",
+        "label":  "LOFT-A2",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        48,
+                        49,
+                        50,
+                        51
+                    ],
+        "worldX":  -23020,
+        "worldY":  -8475,
+        "mapX":  0.2575,
+        "mapY":  0.3
+    },
+    {
+        "id":  "L15",
+        "type":  "loft",
+        "label":  "LOFT-D2",
+        "zone":  "Lofts D",
+        "unitIds":  [
+                        132,
+                        133,
+                        134,
+                        135
+                    ],
+        "worldX":  25340,
+        "worldY":  -8525,
+        "mapX":  0.9505,
+        "mapY":  0.2987
+    },
+    {
+        "id":  "L16",
+        "type":  "loft",
+        "label":  "LOFT-A3",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        52,
+                        53,
+                        54,
+                        55
+                    ],
+        "worldX":  -23020,
+        "worldY":  -5505,
+        "mapX":  0.2575,
+        "mapY":  0.3743
+    },
+    {
+        "id":  "L17",
+        "type":  "loft",
+        "label":  "LOFT-D3",
+        "zone":  "Lofts D",
+        "unitIds":  [
+                        136,
+                        137,
+                        138,
+                        139
+                    ],
+        "worldX":  25340,
+        "worldY":  -5795,
+        "mapX":  0.9505,
+        "mapY":  0.3671
+    },
+    {
+        "id":  "L18",
+        "type":  "loft",
+        "label":  "LOFT-A4",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        56,
+                        57,
+                        58,
+                        59
+                    ],
+        "worldX":  -23000,
+        "worldY":  -2755,
+        "mapX":  0.2577,
+        "mapY":  0.4431
+    },
+    {
+        "id":  "L19",
+        "type":  "loft",
+        "label":  "LOFT-A5",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        60,
+                        61,
+                        62,
+                        63
+                    ],
+        "worldX":  -23000,
+        "worldY":  485,
+        "mapX":  0.2577,
+        "mapY":  0.5242
+    },
+    {
+        "id":  "L20",
+        "type":  "loft",
+        "label":  "LOFT-A6",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        64,
+                        65,
+                        66,
+                        67
+                    ],
+        "worldX":  -23000,
+        "worldY":  3235,
+        "mapX":  0.2577,
+        "mapY":  0.5931
+    },
+    {
+        "id":  "L21",
+        "type":  "loft",
+        "label":  "LOFT-A7",
+        "zone":  "Lofts A",
+        "unitIds":  [
+                        68,
+                        69,
+                        70,
+                        71
+                    ],
+        "worldX":  -23000,
+        "worldY":  6335,
+        "mapX":  0.2577,
+        "mapY":  0.6707
+    },
+    {
+        "id":  "L22",
+        "type":  "loft",
+        "label":  "LOFT-B2",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        76,
+                        77,
+                        78,
+                        79
+                    ],
+        "worldX":  -33500,
+        "worldY":  -14645,
+        "mapX":  0.1206,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "L23",
+        "type":  "loft",
+        "label":  "LOFT-B1",
+        "zone":  "Lofts B",
+        "unitIds":  [
+                        72,
+                        73,
+                        74,
+                        75
+                    ],
+        "worldX":  -36620,
+        "worldY":  -14645,
+        "mapX":  0.0799,
+        "mapY":  0.1455
+    },
+    {
+        "id":  "APT1",
+        "type":  "apartments",
+        "label":  "Apartment Block 1",
+        "zone":  "Apartments",
+        "unitIds":  [
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217
+                    ],
+        "worldX":  -27460,
+        "worldY":  -6140,
+        "mapX":  0.1995,
+        "mapY":  0.3584
+    },
+    {
+        "id":  "APT2",
+        "type":  "apartments",
+        "label":  "Apartment Block 2",
+        "zone":  "Apartments",
+        "unitIds":  [
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        218,
+                        219,
+                        220,
+                        221,
+                        222,
+                        223
+                    ],
+        "worldX":  -27460,
+        "worldY":  3780,
+        "mapX":  0.1995,
+        "mapY":  0.6067
+    }
+]

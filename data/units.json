@@ -1,0 +1,2009 @@
+﻿[
+    {
+        "id":  1,
+        "code":  "VILLA-A-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_08",
+        "floor":  "All"
+    },
+    {
+        "id":  2,
+        "code":  "VILLA-A-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_06",
+        "floor":  "All"
+    },
+    {
+        "id":  3,
+        "code":  "VILLA-A-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_04",
+        "floor":  "All"
+    },
+    {
+        "id":  4,
+        "code":  "VILLA-A-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_02",
+        "floor":  "All"
+    },
+    {
+        "id":  5,
+        "code":  "VILLA-A-05",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_00",
+        "floor":  "All"
+    },
+    {
+        "id":  6,
+        "code":  "VILLA-A-06",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_01",
+        "floor":  "All"
+    },
+    {
+        "id":  7,
+        "code":  "VILLA-A-07",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_03",
+        "floor":  "All"
+    },
+    {
+        "id":  8,
+        "code":  "VILLA-A-08",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_05",
+        "floor":  "All"
+    },
+    {
+        "id":  9,
+        "code":  "VILLA-A-09",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_07",
+        "floor":  "All"
+    },
+    {
+        "id":  10,
+        "code":  "VILLA-A-10",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas A",
+        "building":  "XIX_VillaV2_09",
+        "floor":  "All"
+    },
+    {
+        "id":  11,
+        "code":  "VILLA-B-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas B",
+        "building":  "XIX_VillaV2_11",
+        "floor":  "All"
+    },
+    {
+        "id":  12,
+        "code":  "VILLA-B-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas B",
+        "building":  "XIX_VillaV2_12",
+        "floor":  "All"
+    },
+    {
+        "id":  13,
+        "code":  "VILLA-B-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas B",
+        "building":  "XIX_VillaV2_10",
+        "floor":  "All"
+    },
+    {
+        "id":  14,
+        "code":  "VILLA-B-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas B",
+        "building":  "XIX_VillaV2_13",
+        "floor":  "All"
+    },
+    {
+        "id":  15,
+        "code":  "VILLA-C-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas C",
+        "building":  "XIX_VillaV2_14",
+        "floor":  "All"
+    },
+    {
+        "id":  16,
+        "code":  "VILLA-C-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas C",
+        "building":  "XIX_VillaV2_15",
+        "floor":  "All"
+    },
+    {
+        "id":  17,
+        "code":  "VILLA-C-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas C",
+        "building":  "XIX_VillaV2_16",
+        "floor":  "All"
+    },
+    {
+        "id":  18,
+        "code":  "VILLA-C-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas C",
+        "building":  "XIX_VillaV2_17",
+        "floor":  "All"
+    },
+    {
+        "id":  19,
+        "code":  "VILLA-D-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_18",
+        "floor":  "All"
+    },
+    {
+        "id":  20,
+        "code":  "VILLA-D-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_19",
+        "floor":  "All"
+    },
+    {
+        "id":  21,
+        "code":  "VILLA-D-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_23",
+        "floor":  "All"
+    },
+    {
+        "id":  22,
+        "code":  "VILLA-D-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_24",
+        "floor":  "All"
+    },
+    {
+        "id":  23,
+        "code":  "VILLA-D-05",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_26",
+        "floor":  "All"
+    },
+    {
+        "id":  24,
+        "code":  "VILLA-D-06",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_29",
+        "floor":  "All"
+    },
+    {
+        "id":  25,
+        "code":  "VILLA-D-07",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_30",
+        "floor":  "All"
+    },
+    {
+        "id":  26,
+        "code":  "VILLA-D-08",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_32",
+        "floor":  "All"
+    },
+    {
+        "id":  27,
+        "code":  "VILLA-D-09",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas D",
+        "building":  "XIX_VillaV2_35",
+        "floor":  "All"
+    },
+    {
+        "id":  28,
+        "code":  "VILLA-E-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_20",
+        "floor":  "All"
+    },
+    {
+        "id":  29,
+        "code":  "VILLA-E-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_21",
+        "floor":  "All"
+    },
+    {
+        "id":  30,
+        "code":  "VILLA-E-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_22",
+        "floor":  "All"
+    },
+    {
+        "id":  31,
+        "code":  "VILLA-E-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_25",
+        "floor":  "All"
+    },
+    {
+        "id":  32,
+        "code":  "VILLA-E-05",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_27",
+        "floor":  "All"
+    },
+    {
+        "id":  33,
+        "code":  "VILLA-E-06",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_28",
+        "floor":  "All"
+    },
+    {
+        "id":  34,
+        "code":  "VILLA-E-07",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_31",
+        "floor":  "All"
+    },
+    {
+        "id":  35,
+        "code":  "VILLA-E-08",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_33",
+        "floor":  "All"
+    },
+    {
+        "id":  36,
+        "code":  "VILLA-E-09",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas E",
+        "building":  "XIX_VillaV2_34",
+        "floor":  "All"
+    },
+    {
+        "id":  37,
+        "code":  "VILLA-F-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas F",
+        "building":  "XIX_VillaV2_37",
+        "floor":  "All"
+    },
+    {
+        "id":  38,
+        "code":  "VILLA-F-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas F",
+        "building":  "XIX_VillaV2_42",
+        "floor":  "All"
+    },
+    {
+        "id":  39,
+        "code":  "VILLA-F-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas F",
+        "building":  "XIX_VillaV2_38",
+        "floor":  "All"
+    },
+    {
+        "id":  40,
+        "code":  "VILLA-G-01",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas G",
+        "building":  "XIX_VillaV2_41",
+        "floor":  "All"
+    },
+    {
+        "id":  41,
+        "code":  "VILLA-G-02",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas G",
+        "building":  "XIX_VillaV2_36",
+        "floor":  "All"
+    },
+    {
+        "id":  42,
+        "code":  "VILLA-G-03",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas G",
+        "building":  "XIX_VillaV2_39",
+        "floor":  "All"
+    },
+    {
+        "id":  43,
+        "code":  "VILLA-G-04",
+        "typology":  "3 BED VILLA",
+        "area":  330,
+        "zone":  "Villas G",
+        "building":  "XIX_VillaV2_40",
+        "floor":  "All"
+    },
+    {
+        "id":  44,
+        "code":  "LOFT-A1-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_12",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  45,
+        "code":  "LOFT-A1-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_12",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  46,
+        "code":  "LOFT-A1-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_12",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  47,
+        "code":  "LOFT-A1-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_12",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  48,
+        "code":  "LOFT-A2-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_14",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  49,
+        "code":  "LOFT-A2-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_14",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  50,
+        "code":  "LOFT-A2-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_14",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  51,
+        "code":  "LOFT-A2-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_14",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  52,
+        "code":  "LOFT-A3-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_16",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  53,
+        "code":  "LOFT-A3-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_16",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  54,
+        "code":  "LOFT-A3-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_16",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  55,
+        "code":  "LOFT-A3-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_16",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  56,
+        "code":  "LOFT-A4-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_18",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  57,
+        "code":  "LOFT-A4-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_18",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  58,
+        "code":  "LOFT-A4-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_18",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  59,
+        "code":  "LOFT-A4-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_18",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  60,
+        "code":  "LOFT-A5-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_19",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  61,
+        "code":  "LOFT-A5-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_19",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  62,
+        "code":  "LOFT-A5-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_19",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  63,
+        "code":  "LOFT-A5-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_19",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  64,
+        "code":  "LOFT-A6-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_20",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  65,
+        "code":  "LOFT-A6-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_20",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  66,
+        "code":  "LOFT-A6-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_20",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  67,
+        "code":  "LOFT-A6-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_20",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  68,
+        "code":  "LOFT-A7-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_21",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  69,
+        "code":  "LOFT-A7-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_21",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  70,
+        "code":  "LOFT-A7-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_21",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  71,
+        "code":  "LOFT-A7-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts A",
+        "building":  "XIX_Loft_21",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  72,
+        "code":  "LOFT-B1-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_23",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  73,
+        "code":  "LOFT-B1-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_23",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  74,
+        "code":  "LOFT-B1-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_23",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  75,
+        "code":  "LOFT-B1-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_23",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  76,
+        "code":  "LOFT-B2-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_22",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  77,
+        "code":  "LOFT-B2-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_22",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  78,
+        "code":  "LOFT-B2-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_22",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  79,
+        "code":  "LOFT-B2-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_22",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  80,
+        "code":  "LOFT-B3-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_00",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  81,
+        "code":  "LOFT-B3-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_00",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  82,
+        "code":  "LOFT-B3-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_00",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  83,
+        "code":  "LOFT-B3-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_00",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  84,
+        "code":  "LOFT-B4-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_01",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  85,
+        "code":  "LOFT-B4-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_01",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  86,
+        "code":  "LOFT-B4-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_01",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  87,
+        "code":  "LOFT-B4-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_01",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  88,
+        "code":  "LOFT-B5-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_02",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  89,
+        "code":  "LOFT-B5-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_02",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  90,
+        "code":  "LOFT-B5-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_02",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  91,
+        "code":  "LOFT-B5-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_02",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  92,
+        "code":  "LOFT-B6-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_03",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  93,
+        "code":  "LOFT-B6-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_03",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  94,
+        "code":  "LOFT-B6-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_03",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  95,
+        "code":  "LOFT-B6-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_03",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  96,
+        "code":  "LOFT-B7-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_04",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  97,
+        "code":  "LOFT-B7-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_04",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  98,
+        "code":  "LOFT-B7-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_04",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  99,
+        "code":  "LOFT-B7-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_04",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  100,
+        "code":  "LOFT-B8-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_05",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  101,
+        "code":  "LOFT-B8-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_05",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  102,
+        "code":  "LOFT-B8-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_05",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  103,
+        "code":  "LOFT-B8-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_05",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  104,
+        "code":  "LOFT-B9-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_06",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  105,
+        "code":  "LOFT-B9-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_06",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  106,
+        "code":  "LOFT-B9-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_06",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  107,
+        "code":  "LOFT-B9-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts B",
+        "building":  "XIX_Loft_06",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  108,
+        "code":  "LOFT-C1-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_07",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  109,
+        "code":  "LOFT-C1-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_07",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  110,
+        "code":  "LOFT-C1-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_07",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  111,
+        "code":  "LOFT-C1-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_07",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  112,
+        "code":  "LOFT-C2-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_08",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  113,
+        "code":  "LOFT-C2-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_08",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  114,
+        "code":  "LOFT-C2-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_08",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  115,
+        "code":  "LOFT-C2-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_08",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  116,
+        "code":  "LOFT-C3-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_09",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  117,
+        "code":  "LOFT-C3-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_09",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  118,
+        "code":  "LOFT-C3-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_09",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  119,
+        "code":  "LOFT-C3-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_09",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  120,
+        "code":  "LOFT-C4-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_10",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  121,
+        "code":  "LOFT-C4-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_10",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  122,
+        "code":  "LOFT-C4-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_10",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  123,
+        "code":  "LOFT-C4-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_10",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  124,
+        "code":  "LOFT-C5-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_11",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  125,
+        "code":  "LOFT-C5-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_11",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  126,
+        "code":  "LOFT-C5-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_11",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  127,
+        "code":  "LOFT-C5-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts C",
+        "building":  "XIX_Loft_11",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  128,
+        "code":  "LOFT-D1-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_13",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  129,
+        "code":  "LOFT-D1-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_13",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  130,
+        "code":  "LOFT-D1-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_13",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  131,
+        "code":  "LOFT-D1-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_13",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  132,
+        "code":  "LOFT-D2-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_15",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  133,
+        "code":  "LOFT-D2-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_15",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  134,
+        "code":  "LOFT-D2-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_15",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  135,
+        "code":  "LOFT-D2-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_15",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  136,
+        "code":  "LOFT-D3-1",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_17",
+        "floor":  "Unit 1"
+    },
+    {
+        "id":  137,
+        "code":  "LOFT-D3-2",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_17",
+        "floor":  "Unit 2"
+    },
+    {
+        "id":  138,
+        "code":  "LOFT-D3-3",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_17",
+        "floor":  "Unit 3"
+    },
+    {
+        "id":  139,
+        "code":  "LOFT-D3-4",
+        "typology":  "2 BED LOFT TERRACE",
+        "area":  125,
+        "zone":  "Lofts D",
+        "building":  "XIX_Loft_17",
+        "floor":  "Unit 4"
+    },
+    {
+        "id":  140,
+        "code":  "MAIS-B1-F12-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  141,
+        "code":  "MAIS-B1-F12-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  142,
+        "code":  "MAIS-B1-F12-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  143,
+        "code":  "MAIS-B1-F12-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  144,
+        "code":  "MAIS-B1-F34-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  145,
+        "code":  "MAIS-B1-F34-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  146,
+        "code":  "MAIS-B1-F34-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  147,
+        "code":  "MAIS-B1-F34-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  148,
+        "code":  "MAIS-B1-F56-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  149,
+        "code":  "MAIS-B1-F56-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  150,
+        "code":  "MAIS-B1-F56-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  151,
+        "code":  "MAIS-B1-F56-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  152,
+        "code":  "MAIS-B2-F12-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  153,
+        "code":  "MAIS-B2-F12-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  154,
+        "code":  "MAIS-B2-F12-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  155,
+        "code":  "MAIS-B2-F12-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 1-2"
+    },
+    {
+        "id":  156,
+        "code":  "MAIS-B2-F34-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  157,
+        "code":  "MAIS-B2-F34-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  158,
+        "code":  "MAIS-B2-F34-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  159,
+        "code":  "MAIS-B2-F34-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 3-4"
+    },
+    {
+        "id":  160,
+        "code":  "MAIS-B2-F56-1",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  161,
+        "code":  "MAIS-B2-F56-2",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  162,
+        "code":  "MAIS-B2-F56-3",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  163,
+        "code":  "MAIS-B2-F56-4",
+        "typology":  "1 BED MAISONETTE",
+        "area":  117.2,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floors 5-6"
+    },
+    {
+        "id":  164,
+        "code":  "FLAT-B1-F1-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  165,
+        "code":  "FLAT-B1-F1-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  166,
+        "code":  "FLAT-B1-F1-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  167,
+        "code":  "FLAT-B1-F1-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  168,
+        "code":  "FLAT-B1-F2-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  169,
+        "code":  "FLAT-B1-F2-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  170,
+        "code":  "FLAT-B1-F2-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  171,
+        "code":  "FLAT-B1-F2-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  172,
+        "code":  "FLAT-B1-F3-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  173,
+        "code":  "FLAT-B1-F3-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  174,
+        "code":  "FLAT-B1-F3-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  175,
+        "code":  "FLAT-B1-F3-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  176,
+        "code":  "FLAT-B1-F4-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  177,
+        "code":  "FLAT-B1-F4-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  178,
+        "code":  "FLAT-B1-F4-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  179,
+        "code":  "FLAT-B1-F4-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  180,
+        "code":  "FLAT-B1-F5-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  181,
+        "code":  "FLAT-B1-F5-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  182,
+        "code":  "FLAT-B1-F5-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  183,
+        "code":  "FLAT-B1-F5-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  184,
+        "code":  "FLAT-B1-F6-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  185,
+        "code":  "FLAT-B1-F6-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  186,
+        "code":  "FLAT-B1-F6-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  187,
+        "code":  "FLAT-B1-F6-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  188,
+        "code":  "FLAT-B2-F1-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  189,
+        "code":  "FLAT-B2-F1-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  190,
+        "code":  "FLAT-B2-F1-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  191,
+        "code":  "FLAT-B2-F1-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 1"
+    },
+    {
+        "id":  192,
+        "code":  "FLAT-B2-F2-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  193,
+        "code":  "FLAT-B2-F2-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  194,
+        "code":  "FLAT-B2-F2-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  195,
+        "code":  "FLAT-B2-F2-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 2"
+    },
+    {
+        "id":  196,
+        "code":  "FLAT-B2-F3-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  197,
+        "code":  "FLAT-B2-F3-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  198,
+        "code":  "FLAT-B2-F3-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  199,
+        "code":  "FLAT-B2-F3-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 3"
+    },
+    {
+        "id":  200,
+        "code":  "FLAT-B2-F4-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  201,
+        "code":  "FLAT-B2-F4-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  202,
+        "code":  "FLAT-B2-F4-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  203,
+        "code":  "FLAT-B2-F4-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 4"
+    },
+    {
+        "id":  204,
+        "code":  "FLAT-B2-F5-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  205,
+        "code":  "FLAT-B2-F5-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  206,
+        "code":  "FLAT-B2-F5-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  207,
+        "code":  "FLAT-B2-F5-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 5"
+    },
+    {
+        "id":  208,
+        "code":  "FLAT-B2-F6-1",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  209,
+        "code":  "FLAT-B2-F6-2",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  210,
+        "code":  "FLAT-B2-F6-3",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  211,
+        "code":  "FLAT-B2-F6-4",
+        "typology":  "2 BED FLAT",
+        "area":  204,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Floor 6"
+    },
+    {
+        "id":  212,
+        "code":  "STUDIO-B1-G-1",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  213,
+        "code":  "STUDIO-B1-G-2",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  214,
+        "code":  "STUDIO-B1-G-3",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  215,
+        "code":  "STUDIO-B1-G-4",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  216,
+        "code":  "STUDIO-B1-G-5",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  217,
+        "code":  "STUDIO-B1-G-6",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 1",
+        "floor":  "Ground"
+    },
+    {
+        "id":  218,
+        "code":  "STUDIO-B2-G-1",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    },
+    {
+        "id":  219,
+        "code":  "STUDIO-B2-G-2",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    },
+    {
+        "id":  220,
+        "code":  "STUDIO-B2-G-3",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    },
+    {
+        "id":  221,
+        "code":  "STUDIO-B2-G-4",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    },
+    {
+        "id":  222,
+        "code":  "STUDIO-B2-G-5",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    },
+    {
+        "id":  223,
+        "code":  "STUDIO-B2-G-6",
+        "typology":  "STUDIO",
+        "area":  33,
+        "zone":  "Apartments",
+        "building":  "Apartment Block 2",
+        "floor":  "Ground"
+    }
+]
