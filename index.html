@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project XIX Estate Tour</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="XIX Tour">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="lib/pannellum.css">
+<style>
+  :root{--ink:#f4efe6;--gold:#d9b86c;--glass:rgba(20,22,26,.55)}
+  html,body{margin:0;height:100%;background:#0b0c0e;color:var(--ink);font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;overflow:hidden;-webkit-user-select:none;user-select:none;touch-action:none}
+  #pano{position:absolute;inset:0}
+  .pnlm-container{background:#0b0c0e!important}
+  #bar{position:absolute;left:max(14px,env(safe-area-inset-left));top:max(14px,env(safe-area-inset-top));padding:10px 16px;border-radius:14px;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);letter-spacing:.18em;font-size:12px;text-transform:uppercase;z-index:5}
+  #bar b{color:var(--gold);font-weight:600}
+  #mm{position:absolute;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));width:220px;height:140px;border-radius:14px;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);z-index:5}
+  #hint{position:absolute;left:50%;bottom:max(18px,env(safe-area-inset-bottom));transform:translateX(-50%);font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.75;background:var(--glass);padding:8px 14px;border-radius:12px;z-index:5;white-space:nowrap}
+  #fade{position:absolute;inset:0;background:#0b0c0e;opacity:0;pointer-events:none;transition:opacity .35s ease;z-index:4}
+  .arrow{width:64px;height:64px;margin-left:-32px;margin-top:-32px;border-radius:50%;background:rgba(20,22,26,.5);border:2px solid var(--gold);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.4)}
+  .arrow svg{width:28px;height:28px;fill:var(--gold)}
+  .arrow:active{transform:scale(.92)}
+  .arrow span{position:absolute;top:70px;font-size:10px;letter-spacing:.12em;white-space:nowrap;text-shadow:0 1px 4px #000}
+  .tag{padding:7px 12px;margin-left:-40px;margin-top:-16px;border-radius:99px;background:rgba(20,22,26,.62);border:1.5px solid var(--gold);color:var(--ink);font-size:11px;letter-spacing:.1em;white-space:nowrap;cursor:pointer;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:0 4px 16px rgba(0,0,0,.4)}
+  .tag i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-right:7px}
+  #dirbtn{position:absolute;right:max(14px,env(safe-area-inset-right));top:max(14px,env(safe-area-inset-top));padding:11px 18px;border-radius:14px;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);letter-spacing:.18em;font-size:12px;text-transform:uppercase;z-index:6;border:1px solid rgba(217,184,108,.5);color:var(--ink);font-family:inherit}
+  .sheet{position:absolute;top:0;bottom:0;width:min(440px,100vw);background:rgba(16,17,20,.88);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);z-index:8;transform:translateX(-105%);transition:transform .38s cubic-bezier(.2,.8,.2,1);overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-y;padding:max(16px,env(safe-area-inset-top)) 18px 24px max(18px,env(safe-area-inset-left))}
+  .sheet.right{right:0;transform:translateX(105%)}
+  .sheet.on{transform:none}
+  .sheet h2{margin:0 0 2px;font-size:20px;letter-spacing:.08em;font-weight:600}
+  .sheet .sub{font-size:12px;opacity:.7;letter-spacing:.06em;margin-bottom:12px}
+  .sheet .x{position:absolute;right:14px;top:12px;width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:transparent;color:var(--ink);font-size:20px}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+  .tabs button{padding:8px 12px;border-radius:99px;border:1px solid rgba(255,255,255,.22);background:transparent;color:var(--ink);font-size:11px;letter-spacing:.08em;font-family:inherit}
+  .tabs button.on{background:var(--gold);color:#17130a;border-color:var(--gold)}
+  .sheet img{width:100%;border-radius:12px;display:block;background:#222}
+  .sheet h4{margin:16px 0 6px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+  .rooms{display:flex;flex-wrap:wrap;gap:6px}
+  .rooms span{font-size:11px;padding:5px 10px;border-radius:99px;background:rgba(255,255,255,.08)}
+  .urow{display:flex;justify-content:space-between;gap:10px;padding:10px 2px;border-bottom:1px solid rgba(255,255,255,.1);font-size:13px}
+  .urow small{display:block;opacity:.65;font-size:11px}
+  .pill{font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:99px;background:rgba(90,200,120,.2);color:#9ee6b0;align-self:center;white-space:nowrap}
+  .go{margin:10px 0;width:100%;padding:13px;border-radius:12px;border:0;background:var(--gold);color:#17130a;font-weight:600;letter-spacing:.14em;font-size:12px;text-transform:uppercase;font-family:inherit}
+  .zone{margin:14px 0 4px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+  .brow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 2px;border-bottom:1px solid rgba(255,255,255,.1);font-size:13px}
+  .brow button{padding:7px 14px;border-radius:99px;border:1px solid var(--gold);background:transparent;color:var(--ink);font-size:11px;letter-spacing:.1em;font-family:inherit}
+  @media (max-width:600px){#mm{width:150px;height:96px}#hint{display:none}}
+</style>
+</head>
+<body>
+<div id="pano"></div>
+<div id="fade"></div>
+<div id="bar"><b>Project XIX</b> &nbsp;·&nbsp; Live Estate Tour</div>
+<canvas id="mm" width="440" height="280"></canvas>
+<div id="hint">Drag to look · Pinch to zoom · Tap an arrow to walk · Tap a tag for unit info</div>
+<button id="dirbtn">Residences</button>
+<div class="sheet" id="sheet"></div>
+<div class="sheet right" id="dir"></div>
+<script src="lib/pannellum.js"></script>
+<script>
+(function(){
+  var NODES=[], byId={}, viewer=null, cur=null, busy=false, HFOV=100;
+  var mm=document.getElementById('mm'), mc=mm.getContext('2d');
+  var faces=['f','r','b','l','u','d'];
+  function cube(id){return faces.map(function(f){return 'img/'+id+'_'+f+'.jpg'})}
+  function bearing(a,b){return Math.atan2(b.y-a.y,b.x-a.x)*180/Math.PI}
+  function dist(a,b){return Math.hypot(b.x-a.x,b.y-a.y)}
+  function norm(a){a%=360;if(a>180)a-=360;if(a<-180)a+=360;return a}
+  function neighbours(n){
+    var c=NODES.filter(function(m){return m!==n&&dist(n,m)<=4200}).sort(function(a,b){return dist(n,a)-dist(n,b)});
+    var out=[];
+    c.forEach(function(m){
+      var b=bearing(n,m);
+      if(out.every(function(o){return Math.abs(norm(o.b-b))>28})&&out.length<5)out.push({n:m,b:b});
+    });
+    return out;
+  }
+  function arrowEl(div,args){
+    div.classList.add('arrow');
+    div.innerHTML='<svg viewBox="0 0 24 24"><path d="M12 3l9 15h-6v3H9v-3H3z"/></svg>';
+    div.addEventListener('click',function(e){e.stopPropagation();walk(args.id,args.b)});
+    div.addEventListener('touchend',function(e){e.preventDefault();e.stopPropagation();walk(args.id,args.b)},{passive:false});
+  }
+  var BLD=[], UNITS={}, VROOMS={0:["Ramp up","Double garage (2 cars)","Ante room 12 m²","WC 3 m²","Stair lobby 8 m²","Staircase 8 m²","Staff quarters 7 m²","Bath 3 m²","Store 5 m²","Garden"],1:["Terrace","Kitchen 26 m²","Store 5 m²","Study 22 m²","Stair lobby 8 m²","Staircase 8 m²","Living / dining 42 m²","Rear terrace"],2:["Master bedroom 27 m²","Bedroom 2 16 m²","Bedroom 3 17 m²","Bath 7 m²","Bath 5 m²","Bath 5 m²","Walk-in closet 5 m²","Stair lobby 5 m²","Family lounge 23 m²","Terrace"]};
+  var sheet=document.getElementById('sheet'), dirEl=document.getElementById('dir');
+  function bx(b){return {x:b.worldX,y:b.worldY}}
+  function short(b){return b.type==='apartments'?b.label.replace('Apartment Block','Apt Block'):b.label}
+  function tagEl(div,args){
+    div.classList.add('tag');div.innerHTML='<i></i>'+args.t;
+    function open(e){e.preventDefault();e.stopPropagation();openSheet(args.id)}
+    div.addEventListener('click',open);div.addEventListener('touchend',open,{passive:false});
+  }
+  function tags(n){
+    var c=BLD.map(function(b){return {b:b,d:dist(n,bx(b))}}).filter(function(o){return o.d<=(o.b.type==='apartments'?9000:6800)}).sort(function(a,b){return a.d-b.d});
+    var out=[];
+    c.forEach(function(o){
+      var yw=bearing(n,bx(o.b));
+      if(out.every(function(p){return Math.abs(norm(p.yw-yw))>9||Math.abs(p.o.d-o.d)>2500})&&out.length<7)out.push({o:o,yw:yw});
+    });
+    return out.map(function(p){
+      var h=p.o.b.type==='apartments'?2200:p.o.b.type==='loft'?900:700;
+      return {pitch:Math.max(-2,Math.min(14,Math.atan2(h-170,p.o.d)*180/Math.PI)),yaw:p.yw,type:'custom',createTooltipFunc:tagEl,createTooltipArgs:{id:p.o.b.id,t:short(p.o.b)}};
+    });
+  }
+  function views(b){
+    if(b.type==='apartments'){var p=b.id==='APT1'?'B1':'B2',v=[[p+'_hero','Aerial'],[p+'_front','Front'],[p+'_back','Back']];
+      for(var i=0;i<7;i++)v.push([p+'_floor'+i,i?'Floor '+i:'Ground']);v.push([p+'_roof','Roof']);return v}
+    return [[b.id+'_hero','Aerial'],[b.id+'_front',b.zone==='Villas A'?'Lake view':'Front'],[b.id+'_back','Back'],[b.id+'_sliceg','Cutaway · Ground'],[b.id+'_slice1','Cutaway · Level 1'],[b.id+'_slice2','Cutaway · Level 2']];
+  }
+  function openSheet(id){
+    var b=BLD.filter(function(x){return x.id===id})[0];if(!b)return;
+    var us=b.unitIds.map(function(i){return UNITS[i]}).filter(Boolean),u0=us[0]||{};
+    var key=b.type==='villa'?'villa':b.type==='loft'?'loft':'apt',vs=views(b);
+    var h='<button class="x" id="sx">×</button><h2>'+b.label+'</h2><div class="sub">'+b.zone+' · '+(b.type==='villa'?(u0.typology||'3 BED VILLA')+' · '+(u0.area||330)+' m²':us.length+' units')+'</div>';
+    h+='<img id="si" src="data/renders/'+vs[0][0]+'.jpg" alt=""><div class="tabs" id="st">'+vs.map(function(v,i){return '<button data-i="'+i+'"'+(i?'':' class="on"')+'>'+v[1]+'</button>'}).join('')+'</div>';
+    h+='<h4>Floor plans</h4><img id="sp" src="data/plans/'+key+'-0.jpg" alt=""><div class="tabs" id="spt">'+[0,1,2].map(function(i){return '<button data-p="'+i+'"'+(i?'':' class="on"')+'>'+(key==='apt'?'Plan '+(i+1):'Level '+i)+'</button>'}).join('')+'</div>';
+    if(b.type==='villa')h+='<h4>Rooms</h4><div class="rooms" id="sr">'+VROOMS[0].map(function(r){return '<span>'+r+'</span>'}).join('')+'</div>';
+    h+='<h4>Residences</h4>'+us.map(function(u){return '<div class="urow"><div><b>'+u.code+'</b><small>'+u.typology+' · '+u.area+' m²'+(u.floor&&u.floor!=='All'?' · '+u.floor:'')+'</small></div><span class="pill">Available</span></div>'}).join('');
+    h+='<button class="go" id="sgo">Walk to this residence</button>';
+    sheet.innerHTML=h;sheet.scrollTop=0;sheet.classList.add('on');dirEl.classList.remove('on');
+    document.getElementById('sx').onclick=function(){sheet.classList.remove('on')};
+    document.getElementById('st').onclick=function(e){var i=e.target.getAttribute('data-i');if(i==null)return;document.getElementById('si').src='data/renders/'+vs[i][0]+'.jpg';[].forEach.call(this.children,function(c){c.classList.toggle('on',c.getAttribute('data-i')===i)})};
+    document.getElementById('spt').onclick=function(e){var i=e.target.getAttribute('data-p');if(i==null)return;document.getElementById('sp').src='data/plans/'+key+'-'+i+'.jpg';var r=document.getElementById('sr');if(r)r.innerHTML=VROOMS[i].map(function(x){return '<span>'+x+'</span>'}).join('');[].forEach.call(this.children,function(c){c.classList.toggle('on',c.getAttribute('data-p')===i)})};
+    document.getElementById('sgo').onclick=function(){goTo(b);sheet.classList.remove('on')};
+  }
+  function goTo(b){
+    var t=bx(b),best=null,bd=1e9;
+    NODES.forEach(function(n){var d=dist(n,t);if(d<bd){bd=d;best=n}});
+    if(best)jump(best.id,bearing(best,t));
+  }
+  function openDir(){
+    var zones={},order=[];
+    BLD.forEach(function(b){if(!zones[b.zone]){zones[b.zone]=[];order.push(b.zone)}zones[b.zone].push(b)});
+    var h='<button class="x" id="dx">×</button><h2>Residences</h2><div class="sub">'+BLD.length+' buildings · 223 homes</div>';
+    order.forEach(function(z){h+='<div class="zone">'+z+'</div>'+zones[z].map(function(b){return '<div class="brow"><div><b>'+b.label+'</b></div><button data-b="'+b.id+'">View</button></div>'}).join('')});
+    dirEl.innerHTML=h;dirEl.scrollTop=0;dirEl.classList.add('on');sheet.classList.remove('on');
+    document.getElementById('dx').onclick=function(){dirEl.classList.remove('on')};
+    dirEl.onclick=function(e){var i=e.target.getAttribute&&e.target.getAttribute('data-b');if(i){dirEl.classList.remove('on');openSheet(i);var b=BLD.filter(function(x){return x.id===i})[0];if(b)goTo(b)}};
+  }
+  document.getElementById('dirbtn').onclick=openDir;
+  function scene(n){
+    var hs=neighbours(n).map(function(o){
+      return {pitch:-14,yaw:o.b,type:'custom',cssClass:'',createTooltipFunc:arrowEl,createTooltipArgs:{id:o.n.id,b:o.b}};
+    }).concat(tags(n));
+    return {type:'cubemap',cubeMap:cube(n.id),hfov:HFOV,minHfov:50,maxHfov:120,pitch:0,yaw:0,hotSpots:hs,autoLoad:true,showControls:false};
+  }
+  function drawMap(){
+    var W=mm.width,H=mm.height,pad=26,xs=NODES.map(function(n){return n.x}),ys=NODES.map(function(n){return n.y});
+    var x0=Math.min.apply(0,xs),x1=Math.max.apply(0,xs),y0=Math.min.apply(0,ys),y1=Math.max.apply(0,ys);
+    var s=Math.min((W-pad*2)/(x1-x0),(H-pad*2)/(y1-y0));
+    var ox=(W-(x1-x0)*s)/2,oy=(H-(y1-y0)*s)/2;
+    function P(n){return [ox+(n.x-x0)*s,oy+(n.y-y0)*s]}
+    mc.clearRect(0,0,W,H);
+    mc.strokeStyle='rgba(244,239,230,.25)';mc.lineWidth=2;
+    NODES.forEach(function(n){neighbours(n).forEach(function(o){var a=P(n),b=P(o.n);mc.beginPath();mc.moveTo(a[0],a[1]);mc.lineTo(b[0],b[1]);mc.stroke()})});
+    NODES.forEach(function(n){var p=P(n);mc.beginPath();mc.arc(p[0],p[1],n===cur?9:5,0,7);mc.fillStyle=n===cur?'#d9b86c':'rgba(244,239,230,.7)';mc.fill()});
+    mm._P=P;
+  }
+  mm.addEventListener('click',function(e){
+    var r=mm.getBoundingClientRect(),sx=mm.width/r.width,px=(e.clientX-r.left)*sx,py=(e.clientY-r.top)*sx,best=null,bd=1e9;
+    NODES.forEach(function(n){var p=mm._P(n),d=Math.hypot(p[0]-px,p[1]-py);if(d<bd){bd=d;best=n}});
+    if(best&&bd<40&&best!==cur)jump(best.id,viewer.getYaw());
+  });
+  function jump(id,yaw){
+    if(busy)return;busy=true;var f=document.getElementById('fade');f.style.opacity=1;
+    setTimeout(function(){cur=byId[id];viewer.loadScene(id,0,yaw,HFOV);drawMap()},350);
+    setTimeout(function(){f.style.opacity=0;busy=false},700);
+  }
+  function walk(id,yaw){
+    if(busy)return;busy=true;
+    var start=viewer.getHfov(),y0=viewer.getYaw(),t0=performance.now(),DUR=520;
+    function step(t){
+      var k=Math.min(1,(t-t0)/DUR),e=k*k*(3-2*k);
+      viewer.setYaw(y0+norm(yaw-y0)*e,false);viewer.setHfov(start-34*e,false);
+      if(k<1)requestAnimationFrame(step);else{
+        cur=byId[id];viewer.loadScene(id,0,yaw,start-34);
+        drawMap();
+        var t1=performance.now();
+        (function out(t){var k2=Math.min(1,(t-t1)/380),e2=k2*k2*(3-2*k2);viewer.setHfov(start-34*(1-e2)-0*e2,false);if(k2<1)requestAnimationFrame(out);else busy=false})(t1);
+      }
+    }
+    requestAnimationFrame(step);
+  }
+  Promise.all([fetch('nodes.json').then(function(r){return r.json()}),fetch('data/buildings.json').then(function(r){return r.json()}),fetch('data/units.json').then(function(r){return r.json()})]).then(function(a){
+    var list=a[0];BLD=a[1];a[2].forEach(function(u){UNITS[u.id]=u});
+    NODES=list;list.forEach(function(n){byId[n.id]=n});
+    var scenes={};list.forEach(function(n){scenes[n.id]=scene(n)});
+    var start=byId[(location.hash||'').slice(1)]||list[0];cur=start;
+    viewer=pannellum.viewer('pano',{default:{firstScene:start.id,sceneFadeDuration:450,hfov:HFOV,author:''},scenes:scenes});
+    drawMap();
+    if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(function(){});
+  });
+})();
+</script>
+</body>
+</html>
